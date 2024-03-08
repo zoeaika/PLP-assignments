@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>This is My first Title</title>
+        </head>
+        <body>
+            <form action="processing.php" method="post" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name" value="John-doe" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="john@mail.com">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="file">Upload fole:</label>
+                <input type="file" id="file" name="file" accept=".pdf"> <!--*image  video/*-->  
+                <br>
+                <input type="checkbox" id="" value="I am a student">
+                <label for="student">I am a student</label>
+                <br>
+                <input type="radio" id="gender" name="gender" value="Fema">
+                <label for="Female">Female</label>
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label for="Male">Male</label>
+                <br>
+                <label for="car">select car model:</label>
+                <select name="car" id="car"</select>  <!--multiple-->
+                    <option value=""></option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Mistsubishi">Mistsubishi</option>
+                    <option value="Mazda">Mazda</option>
+                </select>
+                <br>
+                <textarea id="bio" name="bio" rows="10" cols="25" maxlength="">type in your bio
+                </textarea>
+                <input type="submit" value="Save-Detail">
+        </form>
+    </html>
+    <!--Create a local repository for your project using git init in the terminal.
+Add the files you want to push to the local repository using git add . or git add <filename>.
+Commit the changes to the local repository using git commit -m "message", where "message" is a brief description of what you did.
+Create a remote repository on GitHub by clicking the green "New" button on your account page. Give it a name and a description, and choose whether to make it public or private.
+Copy the URL of the remote repository from GitHub. It should look something like https://github.com/username/repository.git.
+Connect the local repository to the remote repository using git remote add origin <URL>, where <URL> is the URL you copied from GitHub.
+Push the changes from the local repository to the remote repository using git push origin main, where main is the name of the default branch.
+-->
