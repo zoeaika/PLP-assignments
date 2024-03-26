@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS, Margin, And Padding Features</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-title{
+            text-align: center;
+            color: brown;
+            background-color: rgba(165, 42, 42, 0.204);
+            font-size: 2rem;
+            padding: 30px;
+        }
+
+        .title-intro{
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 12px;
+            text-indent: 12px;
+            color: rgba(160, 122, 94, 0.887);
+            font-size: 40px;
+            padding: 20px;
+        }
+
+        .self-description{
+           text-align: center;
+           margin-bottom: 20px;
+           padding: 18px 10px;
+           background-color: rgba(127, 104, 73, 0.651);
+           color: rgb(8, 7, 7);
+        }
+
+        .skills{
+           margin-bottom: 20px;
+           padding: 20px;
+        }
+
+        .skills-title{
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: rgba(4, 4, 4, 0.864);
+        }
+
+        .skills li{
+        list-style: none;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        color: rgb(71, 65, 65);
+        }
+
+        .contact{
+            background-color: #333;
+            color: white;
+            margin-bottom: 10px;
+            padding: 20px;
+            line-height: 1.4;
+        }
+
+        .contact-list li{
+            list-style: none;
+        }
+
+        .contact-list a {
+            color: rgb(245, 85, 85);
+           
+        }
+
+        /* Responsive Design*/
+
+        @media (max-width: 750px) {
+            .header-title {
+                padding: 16px;
+            }
+
+            .title-intro{
+                font-size: 26px;
+                padding: 10px
+            }
+        }
+
+    </style>
+</head>
+<body>
+        <header>
+            <h2 class="header-title">Saudi Zoe</h2>
+        </header>
+        
+        <div class="intro">
+            <h2 class="title-intro">
+                Introduction
+            </h2>
+
+            <p class="self-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic obcaecati quidem quisquam totam laboriosam doloremque, vitae nobis quae distinctio accusantium fugiat repellendus qui temporibus dolorum quod repellat perspiciatis sequi ratione. 
+            </p>
+        </div>
+        <div class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>DataBase Management</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>
+                Contact Information
+            </h2>
+            <ul class="contact-list">
+                <li>Email: Saudizoe@gmail.com</li>
+                <li>LinkedIn: <a href="#">My LinkedIn Profile</a></li>
+            </ul>
+        </div>
+</body>
+</html>
